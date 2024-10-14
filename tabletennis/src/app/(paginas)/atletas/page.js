@@ -1,11 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
-
-export default function Atletas() {
+export default function Atletas(){
   return (
-    <div className="bg-violet-950 h-100vw w-100vw">
-
+    <div>
+      <h1>Atletas</h1>
     </div>
   );
 }
-  

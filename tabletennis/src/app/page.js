@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div >
-      <img src="/imagens/banner-home.png" className="fixed z-0 h-screen opacity-15 saturate-150 object-cover   " />
+      <img src="/imagens/banners/banner-home.png" className="fixed z-0 h-screen opacity-15 saturate-150 object-cover   " />
       <div className="  z-10 absolute w-screen h-screen  flex-cols  ">
         <div className=" flex flex-col justify-center container mx-auto md  grid h-100 w-100 ">
           <div className="poppins-medium   text-5xl text-slate-100   md:text-md">
