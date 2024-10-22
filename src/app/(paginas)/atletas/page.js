@@ -41,9 +41,9 @@ export default function Atletas() {
             <th className="poppins-bold px-6 py-3">Pais</th>
           </tr>{" "}
         </thead>
-        {atleta.map((atleta) => {
+        {atleta.map((atleta, index) => {
           return (
-            <tr className="border border-violet-500 p-3">
+            <tr key={index} className="border border-violet-500 p-3">
               <th scope="col" className="poppins-medium px-6 py-3 ">
                 <Link href={`/atletas/${atleta.id}`}>
                   {atleta.ranking + "  "}
