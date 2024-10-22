@@ -4,46 +4,34 @@ import Image from "next/image";
 export default function History() {
   return (
     <div>
-      <div className="w-full bg-violet-100 ">
-        <img
-          className="w-full  h-auto mh-56 xl:h-64 object-cover"
+      <div className="w-full bg-violet-100">
+        <Image
+          className="w-full h-auto mh-56 xl:h-64 object-cover"
           src="/imagens/banners/banner-historia.jpg"
-        ></img>
-        <div className="container px-10 mt-6 mx-auto w-screen h-auto grid grid-rows-auto  grid-cols-1 ">
-          <div className="py-10 w-100 grid columns-1 gap-3 justify-items-left justify-center">
-            <h1 className="text-balance text-4xl sm:text-5xl  drop-shadow-sm mb-10 text-slate-100 poppins-extrabold  bg-gradient-to-r   from-fuchsia-600 to-indigo-500 bg-clip-text text-transparent inline-block">
+          alt="Banner História do Tênis de Mesa"
+          width={1920}
+          height={500}
+        />
+        <div className="container px-10 mt-6 mx-auto w-screen h-auto grid grid-cols-1">
+          <div className="py-10 w-full grid gap-3 justify-items-start justify-center">
+            <h1 className="text-4xl sm:text-5xl drop-shadow-sm mb-10 text-slate-100 poppins-extrabold bg-gradient-to-r from-fuchsia-600 to-indigo-500 bg-clip-text text-transparent">
               História do Tênis de Mesa
             </h1>
 
-            <h2 className=" text-2xl drop-shadow-sm text-slate-100 poppins-extrabold  bg-gradient-to-r  from-violet-500 to-purple-500 bg-clip-text text-transparent inline-block">
+            <h2 className="text-2xl drop-shadow-sm text-slate-100 poppins-extrabold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent">
               Onde e quando surgiu?
             </h2>
-            <div className=" text-justify text-slate-600  sm:text-xl poppins-light max-w-100">
-              O tênis de mesa surgiu na{" "}
-              <line className="poppins-bold1">Inglaterra</line>, na segunda
-              metade do <line className="poppins-bold1">século XIX</line>, como
-              uma adaptação do tênis de campo para ser praticado em ambientes
-              fechados. Originalmente, era um passatempo social popular no
-              inverno, quando as condições climáticas dificultavam a prática de
-              esportes ao ar livre. Estudantes e militares começaram a jogar
-              versões improvisadas do esporte, utilizando livros como rede,
-              bolas de cortiça ou borracha, e raquetes feitas de materiais
-              variados como madeira, papelão ou couro.
+            <div className="text-justify text-slate-600 sm:text-xl poppins-light">
+              O tênis de mesa surgiu na <span className="font-bold">Inglaterra</span>, na segunda metade do <span className="font-bold">século XIX</span>, como uma adaptação do tênis de campo para ser praticado em ambientes fechados. Originalmente, era um passatempo social popular no inverno, quando as condições climáticas dificultavam a prática de esportes ao ar livre. Estudantes e militares começaram a jogar versões improvisadas do esporte, utilizando livros como rede, bolas de cortiça ou borracha, e raquetes feitas de materiais variados como madeira, papelão ou couro.
             </div>
 
-            <h2 className=" text-2xl drop-shadow-sm text-slate-100 poppins-extrabold  bg-gradient-to-r  from-violet-500 to-purple-500 bg-clip-text text-transparent inline-block">
+            <h2 className="text-2xl drop-shadow-sm text-slate-100 poppins-extrabold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent">
               Porque Ping-Pong?
             </h2>
-            <div className=" text-justify text-slate-600  sm:text-xl poppins-light max-w-100">
-              No final do século XIX, James Gibb, um entusiasta inglês, trouxe
-              dos Estados Unidos{" "}
-              <line className="poppins-bold1">bolas de celuloide</line> que
-              acabaram sendo adotadas para o jogo. O som gerado pelo impacto
-              dessas bolas em raquetes ocas deu origem ao termo{" "}
-              <line className="poppins-bold1">"pingue-pongue"</line>, nome
-              posteriormente registrado pela empresa inglesa J. Jaques and Son
-              e, mais tarde, pela Parker Brothers nos EUA.
+            <div className="text-justify text-slate-600 sm:text-xl poppins-light">
+              No final do século XIX, James Gibb, um entusiasta inglês, trouxe dos Estados Unidos <span className="font-bold">bolas de celuloide</span> que acabaram sendo adotadas para o jogo. O som gerado pelo impacto dessas bolas em raquetes ocas deu origem ao termo <span className="font-bold">"pingue-pongue"</span>, nome posteriormente registrado pela empresa inglesa J. Jaques and Son e, mais tarde, pela Parker Brothers nos EUA.
             </div>
+
 
             <h2 className=" text-2xl drop-shadow-sm text-slate-100 poppins-extrabold  bg-gradient-to-r  from-violet-500 to-purple-500 bg-clip-text text-transparent inline-block">
               Primeiros Torneios
