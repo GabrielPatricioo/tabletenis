@@ -22,7 +22,7 @@ export default function History() {
               Onde e quando surgiu?
             </h2>
             <div className="text-justify text-slate-600 sm:text-xl poppins-light">
-  O tênis de mesa surgiu na <span className="font-bold">Inglaterra</span>, na segunda metade do <span className="font-bold">século XIX</span>, como uma adaptação do tênis de campo para ser praticado em ambientes fechados. Originalmente, era um passatempo social popular no inverno, quando as condições climáticas dificultavam a prática de esportes ao ar livre. Estudantes e militares começaram a jogar versões improvisadas do esporte, utilizando livros como rede, bolas de cortiça ou borracha, e raquetes feitas de materiais variados como madeira, papelão ou couro.
+  O tênis de mesa surgiu na <span className="font-bold">Inglaterra</span>, na segunda metade do <span className="font-bold">século XIX</span>`&quot;` como uma adaptação do tênis de campo para ser praticado em ambientes fechados. Originalmente, era um passatempo social popular no inverno, quando as condições climáticas dificultavam a prática de esportes ao ar livre. Estudantes e militares começaram a jogar versões improvisadas do esporte, utilizando livros como rede, bolas de cortiça ou borracha, e raquetes feitas de materiais variados como madeira, papelão ou couro.
 </div>
 
 
@@ -31,7 +31,7 @@ export default function History() {
               Porque Ping-Pong?
             </h2>
            <div className="text-justify text-slate-600 sm:text-xl poppins-light">
-  No final do século XIX, James Gibb, um entusiasta inglês, trouxe dos Estados Unidos <span className="font-bold">bolas de celuloide</span> que acabaram sendo adotadas para o jogo. O som gerado pelo impacto dessas bolas em raquetes ocas deu origem ao termo <span className="font-bold">&quot;pingue-pongue&quot;</span>, nome posteriormente registrado pela empresa inglesa J. Jaques and Son e, mais tarde, pela Parker Brothers nos EUA.
+  No final do século XIX `&quot;` James Gibb, um entusiasta inglês`&quot;` trouxe dos Estados Unidos <span className="font-bold">bolas de celuloide</span> que acabaram sendo adotadas para o jogo. O som gerado pelo impacto dessas bolas em raquetes ocas deu origem ao termo <span className="font-bold">&quot;pingue-pongue&quot;</span>, nome posteriormente registrado pela empresa inglesa J. Jaques and Son e, mais tarde, pela Parker Brothers nos EUA.
 </div>
 
 
@@ -41,22 +41,22 @@ export default function History() {
             <div className=" text-justify text-slate-600  sm:text-xl poppins-light max-w-100">
               Os primeiros torneios ocorreram em{" "}
               <line className="poppins-bold1">1901</line>, com grande
-              participação. Em 1922, a "Ping-Pong Association" foi substituída
-              pela "Table Tennis Association", e em 1926 foi fundada a
+              participação. Em 1922`&quot;` a "Ping-Pong Association" foi substituída
+              pela Table Tennis Association `&quot;` e em 1926 foi fundada a
               International Table Tennis Federation (ITTF). Uma revolução no
-              esporte ocorreu nos anos 1950, com a introdução das{" "}
+              esporte ocorreu nos anos 1950 `&quot;` com a introdução das{" "}
               <line className="poppins-bold1">raquetes com esponja</line>, o que
-              permitiu maior controle e efeito nos golpes.
+              permitiu maior controle e efeito nos golpes
             </div>
 
             <br />
 
             <div className=" text-justify text-slate-600  sm:text-xl poppins-light max-w-100">
-              Ao longo do tempo, o tênis de mesa se popularizou globalmente,
-              especialmente na Ásia, onde se consolidou como uma potência no
+              Ao longo do tempo, o tênis de mesa se popularizou globalmente`&quot;`
+              especialmente na Ásia`&quot;` onde se consolidou como uma potência no
               esporte. A <line className="poppins-bold1">ITTF</line> continua
               regulando as normas para garantir o equilíbrio competitivo e a
-              segurança dos jogadores.
+              segurança dos jogadores
             </div>
 
             <br />
@@ -93,11 +93,11 @@ export default function History() {
                     Objetivo do jogo
                   </h1>
                 </div>
-                O tênis de mesa, também conhecido como pingue-pongue, é jogado
+                O tênis de mesa, também conhecido como pingue-pongue`&quot;` é jogado
                 com o objetivo de fazer a bola tocar o lado do adversário da
-                mesa de forma que ele não consiga devolvê-la. Os jogadores usam
-                raquetes revestidas com borracha para bater na bola, buscando
-                marcar pontos a cada troca de golpes.
+                mesa de forma que ele não consiga devolvê-la Os jogadores usam
+                raquetes revestidas com borracha para bater na bola`&quot;` buscando
+                marcar pontos a cada troca de golpes
               </div>
             </div>
 
@@ -127,7 +127,7 @@ export default function History() {
                 há uma rede com 15,25 cm de altura, dividindo-a em duas partes
                 iguais. As raquetes podem variar em tamanho, formato e peso, mas
                 a face usada para golpear a bola deve ser coberta com borracha.
-                A bola, por sua vez, é leve, medindo 40 mm de diâmetro e pesando
+                A bola, por sua vez`&quot;` é leve `&quot;` medindo 40 mm de diâmetro e pesando
                 2,7 gramas. Obs: as barras de suporte são as peças que seguram a
                 rede, e são consideradas como a rede.
               </div>
@@ -157,8 +157,8 @@ export default function History() {
                 A pontuação no tênis de mesa ocorre com sets disputados até 11
                 pontos. Se houver empate em 10 a 10, o jogo continua até que um
                 dos jogadores consiga uma vantagem de dois pontos. As partidas
-                geralmente são disputadas em melhor de cinco ou sete sets,
-                dependendo das regras da competição.
+                geralmente são disputadas em melhor de cinco ou sete sets `&quot;`
+                dependendo das regras da competição
               </div>
             </div>
 
@@ -186,12 +186,12 @@ export default function History() {
                 Cada jogador tem direito a 2 saques por vez. A bolinha deve
                 quicar no campo do sacador e depois ultrapassar a rede sem
                 tocá-la. Se durante o saque a bola quicar na mesa do sacador,
-                tocar a rede e depois cair na mesa do adversário, a jogada é
-                considerada um "let" (bola queimada). Nesse caso, o saque deve
-                ser repetido, sem que nenhum ponto seja concedido. O ponto é
+                tocar a rede e depois cair na mesa do adversário`&quot;` a jogada é
+                considerada um let (bola queimada) Nesse caso`&quot;` o saque deve
+                ser repetido, sem que nenhum ponto seja concedido O ponto é
                 marcado quando o jogador errar o saque ou a resposta a ele,
                 tocar na bola 2 vezes consecutivas, tocar na mesa com a mão
-                livre ou bater com o lado de madeira da raquete na bola.
+                livre ou bater com o lado de madeira da raquete na bola
               </div>
             </div>
 
@@ -217,13 +217,13 @@ export default function History() {
                   </h1>
                 </div>
                 No tênis de mesa, a bola deve tocar o lado da mesa do jogador
-                antes de ser enviada para o lado do adversário. O ponto é
+                antes de ser enviada para o lado do adversário O ponto é
                 perdido se a bola não for devolvida corretamente, tocar o corpo
-                do jogador, for batida duas vezes seguidas ou acertar a mesa ou
-                a rede sem ser devolvida adequadamente. O objetivo é fazer com
-                que o adversário não consiga retornar a bola corretamente. Obs:
+                do jogador`&quot;` for batida duas vezes seguidas ou acertar a mesa ou
+                a rede sem ser devolvida adequadamente O objetivo é fazer com
+                que o adversário não consiga retornar a bola corretamente Obs:
                 caso a bola colida com as barras de suporte e caia na mesa do
-                adversário, segue-se o jogo.
+                adversário`&quot;` segue-se o jogo
               </div>
             </div>
 
@@ -248,12 +248,12 @@ export default function History() {
                     Faltas e Penalidades
                   </h1>
                 </div>
-                No tênis de mesa, se o saque não for realizado corretamente, o
-                adversário ganha o ponto. Também é considerado falta quando o
-                jogador toca a mesa com a mão livre, comete toques duplos na
+                No tênis de mesa`&quot;` se o saque não for realizado corretamente`&quot;` o
+                adversário ganha o ponto Também é considerado falta quando o
+                jogador toca a mesa com a mão livre`&quot;` comete toques duplos na
                 bola ou quando a bola sai fora da mesa. Essas infrações resultam
                 na perda do ponto e são aplicadas para garantir que o jogo
-                mantenha suas regras básicas de precisão e controle.
+                mantenha suas regras básicas de precisão e controle
               </div>
             </div>
           </div>
@@ -291,9 +291,9 @@ export default function History() {
                     </h1>
                   </div>
                   Um golpe básico e ofensivo que é realizado com a palma da mão
-                  voltada para frente. É um golpe rápido e plano, geralmente
+                  voltada para frente. É um golpe rápido e plano`&quot;` geralmente
                   usado para controlar a bola e manter a pressão sobre o
-                  oponente.
+                  oponente
                 </div>
               </div>
 
@@ -319,8 +319,8 @@ export default function History() {
                     </h1>
                   </div>
                   Similar ao forehand drive, mas executado com as costas da mão
-                  voltadas para frente. É usado para manter a bola em jogo e
-                  pressionar o adversário do lado oposto.
+                  voltadas para frente É usado para manter a bola em jogo e
+                  pressionar o adversário do lado oposto
                 </div>
               </div>
 
@@ -345,11 +345,11 @@ export default function History() {
                       Forehand Loop
                     </h1>
                   </div>
-                  Descrição: Uma variação mais avançada do forehand drive, onde
+                  Descrição: Uma variação mais avançada do forehand drive`&quot;` onde
                   o jogador gera muito efeito topspin (rotação para frente) na
                   bola ao girar a raquete para cima durante o impacto. Uso:
                   Usado para ataques potentes, especialmente contra bolas de
-                  backspin (efeito para trás).
+                  backspin (efeito para trás)
                 </div>
               </div>
 
@@ -374,7 +374,7 @@ export default function History() {
                       Backhand Loop
                     </h1>
                   </div>
-                  Descrição: Similar ao forehand loop, mas realizado no lado de
+                  Descrição: Similar ao forehand loop`&quot;` mas realizado no lado de
                   backhand. Requer boa técnica para gerar efeito topspin e
                   potência. Uso: Usado para atacar bolas com backspin no lado de
                   backhand.
@@ -404,7 +404,7 @@ export default function History() {
                   </div>
                   Descrição: Um golpe defensivo usado para devolver bolas de
                   backspin. O jogador "empurra" a bola com um movimento curto e
-                  controlado, geralmente com um toque suave. Uso: Usado para
+                  controlado`&quot;` geralmente com um toque suave. Uso: Usado para
                   manter a bola baixa e curta, dificultando o ataque do
                   adversário.
                 </div>
@@ -433,8 +433,8 @@ export default function History() {
                   </div>
                   Descrição: Um golpe defensivo em que o jogador simplesmente
                   posiciona a raquete para interceptar e "bloquear" o ataque do
-                  oponente, sem adicionar muita força. Uso: Muito eficaz contra
-                  loops poderosos, onde o objetivo é redirecionar a velocidade e
+                  oponente`&quot;` sem adicionar muita força. Uso: Muito eficaz contra
+                  loops poderosos`&quot;` onde o objetivo é redirecionar a velocidade e
                   efeito da bola.
                 </div>
               </div>
@@ -462,7 +462,7 @@ export default function History() {
                   Descrição: Um golpe defensivo onde o jogador faz um movimento
                   descendente com a raquete, criando backspin (efeito para trás)
                   na bola. Uso: Usado por jogadores defensivos para devolver
-                  bolas rápidas com muito backspin, dificultando o ataque do
+                  bolas rápidas com muito backspin`&quot;` dificultando o ataque do
                   oponente.
                 </div>
               </div>
