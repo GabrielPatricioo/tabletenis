@@ -44,15 +44,15 @@ export default function Atletas() {
         {atleta.map((atleta, index) => {
           return (
             <tr key={index} className="border border-violet-500 p-3">
-              <th scope="col" className="poppins-medium px-6 py-3 ">
-                <Link href={`/atletas/${atleta.id}`}>
-                  {atleta.ranking + "  "}
-                </Link>
-              </th>
+              <th scope="col" className="poppins-medium px-6 py-3">
+  <Link href={`/atletas/${atleta.id}`}>
+    {atleta.ranking + " "}
+  </Link>
+</th>
 
-              <th scope="col" className="poppins-medium px-6 py-3 ">
-                <Link href={`/atletas/${atleta.id}`}>{atleta.name + "  "}</Link>
-              </th>
+<th scope="col" className="poppins-medium px-6 py-3">
+  <Link href={`/atletas/${atleta.id}`}>{atleta.name + " "}</Link>
+</th>
               <th scope="col" className="poppins-medium px-6 py-3 ">
                 <Link href={`/atletas/${atleta.id}`}>
                   <img
