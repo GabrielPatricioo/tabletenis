@@ -18,6 +18,7 @@ export default function AtletasData({ params }) {
       setImagem(1);
     }
   };
+
   useEffect(() => {
     const timer = setTimeout(() => {
       changeImagem();
@@ -36,7 +37,6 @@ export default function AtletasData({ params }) {
         const data = await res.json();
 
         setAtleta(data[0]);
-
         setLoading(false);
       } catch (error) {
         console.error("Erro:", error);
@@ -51,17 +51,17 @@ export default function AtletasData({ params }) {
   }
 
   return (
-    <div className="container align center h-screen mx-auto flex  items-center">
-      <div className="grid lg:grid-cols-2 bg-gradient-to-tr  from-violet-600 to-indigo-900 border-2 border border-violet-600 w-full  rounded-md cols-1">
+    <div className="container align center h-screen mx-auto flex items-center">
+      <div className="grid lg:grid-cols-2 bg-gradient-to-tr from-violet-600 to-indigo-900 border-2 border border-violet-600 w-full rounded-md cols-1">
         
         <img
           src={`/imagens/atletas/${atleta?.id}/${imagem}.png`}
-          className=" md:h-108 h-96 w-full   object-cover transition-opacity"
+          className="md:h-108 h-96 w-full object-cover transition-opacity"
           alt="Banner"
         />
         <div className="poppins-bold text-violet-100 p-5 grid md:grid-cols-2 grid-cols-1 text-xl flex flex-col ">
           <ul className="text-lg">
-            <h1 className="poppins-bold text-violet-100 md:text-4xl mb-6 flex  text-4xl">
+            <h1 className="poppins-bold text-violet-100 md:text-4xl mb-6 flex text-4xl">
               {atleta?.name || "Nome não disponível"}
             </h1>
             
@@ -85,9 +85,9 @@ export default function AtletasData({ params }) {
               Ranking Mundial: {atleta?.ranking || "Idade não disponível"}
             </li>
 
-            <li className=" my-5">
+            <li className="my-5">
               <Link
-                className="poppins-bold md:text-sm text-sm text-slate-200  transition-all p-3 bg-gradient-to-r rounded-md  from-violet-500 to-purple-500 "
+                className="poppins-bold md:text-sm text-sm text-slate-200 transition-all p-3 bg-gradient-to-r rounded-md from-violet-500 to-purple-500 "
                 href="/atletas"
               >
                 Voltar
@@ -96,9 +96,9 @@ export default function AtletasData({ params }) {
             </li>
             (alguns dados podem estar incorretos)
           </ul>
-          <div className=" p-5 bg-violet-950 text-xl w-auto rounded-md flex flex-col">
+          <div className="p-5 bg-violet-950 text-xl w-auto rounded-md flex flex-col">
             Medalhas Olímpicas
-            <ul className="text-sm text-lg mt-2  mb-4 ">
+            <ul className="text-sm text-lg mt-2 mb-4 ">
               <li className="mt-2">
                 Ouro:
                 {" " + atleta?.medals.olympics.gold}
