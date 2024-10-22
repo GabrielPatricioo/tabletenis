@@ -22,15 +22,17 @@ export default function History() {
               Onde e quando surgiu?
             </h2>
             <div className="text-justify text-slate-600 sm:text-xl poppins-light">
-              O tênis de mesa surgiu na <span className="font-bold">Inglaterra</span>, na segunda metade do <span className="font-bold">século XIX</span>, como uma adaptação do tênis de campo para ser praticado em ambientes fechados. Originalmente, era um passatempo social popular no inverno, quando as condições climáticas dificultavam a prática de esportes ao ar livre. Estudantes e militares começaram a jogar versões improvisadas do esporte, utilizando livros como rede, bolas de cortiça ou borracha, e raquetes feitas de materiais variados como madeira, papelão ou couro.
-            </div>
+  O tênis de mesa surgiu na <span className="font-bold">Inglaterra</span>, na segunda metade do <span className="font-bold">século XIX</span>, como uma adaptação do tênis de campo para ser praticado em ambientes fechados. Originalmente, era um passatempo social popular no inverno, quando as condições climáticas dificultavam a prática de esportes ao ar livre. Estudantes e militares começaram a jogar versões improvisadas do esporte, utilizando livros como rede, bolas de cortiça ou borracha, e raquetes feitas de materiais variados como madeira, papelão ou couro.
+</div>
+
+
 
             <h2 className="text-2xl drop-shadow-sm text-slate-100 poppins-extrabold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent">
               Porque Ping-Pong?
             </h2>
-            <div className="text-justify text-slate-600 sm:text-xl poppins-light">
-              No final do século XIX, James Gibb, um entusiasta inglês, trouxe dos Estados Unidos <span className="font-bold">bolas de celuloide</span> que acabaram sendo adotadas para o jogo. O som gerado pelo impacto dessas bolas em raquetes ocas deu origem ao termo <span className="font-bold">"pingue-pongue"</span>, nome posteriormente registrado pela empresa inglesa J. Jaques and Son e, mais tarde, pela Parker Brothers nos EUA.
-            </div>
+           <div className="text-justify text-slate-600 sm:text-xl poppins-light">
+  No final do século XIX, James Gibb, um entusiasta inglês, trouxe dos Estados Unidos <span className="font-bold">bolas de celuloide</span> que acabaram sendo adotadas para o jogo. O som gerado pelo impacto dessas bolas em raquetes ocas deu origem ao termo <span className="font-bold">&quot;pingue-pongue&quot;</span>, nome posteriormente registrado pela empresa inglesa J. Jaques and Son e, mais tarde, pela Parker Brothers nos EUA.
+</div>
 
 
             <h2 className=" text-2xl drop-shadow-sm text-slate-100 poppins-extrabold  bg-gradient-to-r  from-violet-500 to-purple-500 bg-clip-text text-transparent inline-block">
